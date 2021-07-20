@@ -1,0 +1,30 @@
+.banner-btn{
+    border:1px solid $light-green;
+    background-color: $light-green;
+    color: $my-green;
+    font-weight: 700;
+    padding:10px;
+    text-decoration: none;
+    
+    &:hover{
+        color:$my-green;
+        
+    }
+}
+
+.workplace-btn{
+    border: 1px solid $my-white;
+    background:transparent;
+    color: $my-white;
+    padding: 5px;
+    text-decoration: none;
+    &:hover{
+        color:$my-white;
+    }
+}
+.form-button{
+    border:1px solid $my-green !important;
+    background-color: $my-green !important;
+    color: $my-white !important;
+}
+

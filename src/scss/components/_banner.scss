@@ -1,0 +1,47 @@
+
+.banner{
+    .container{
+        max-width: 600px;
+    }
+   
+    &-head{
+        color:$my-green;
+        font-weight: 700;
+        &-last{
+            color:$Lime;
+            font-weight: 700;
+        }
+        
+    }
+    &-text{
+        color:$my-green;
+    }
+    figcaption{
+        position: absolute;
+        bottom:10rem;
+        
+    }  
+}
+
+@media screen and (max-width:800px){
+    .banner{
+        &-head{
+                color: $my-black;
+                font-weight: 700;
+            &-last{
+                color:$my-green;
+                font-weight: 700;
+            }
+        }
+
+        &-text{
+                color:$my-black;
+        }
+        figcaption{
+            position: inherit;
+            bottom:inherit;
+            margin:50px 0px ;
+           
+        }
+    }
+}

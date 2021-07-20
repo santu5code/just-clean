@@ -1,0 +1,25 @@
+.workplace{
+    margin :0px;
+    &-header{
+        color:$my-green;
+        font-weight: 600;
+        font-size: 1.6rem
+    }
+    &-text{
+        color:$my-green;
+        width:fit-content;
+    }
+
+    .top-caption{
+        position: absolute;
+        top:7px;
+        margin-left: 10px;
+        }
+    .bottom-caption{
+        position: absolute;
+        bottom:10px;
+        margin-left: 10px;
+        
+    }
+    
+}

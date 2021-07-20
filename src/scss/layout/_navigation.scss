@@ -1,0 +1,35 @@
+
+
+.navbar{
+    &--wrapper{
+    background-color:$light-green ;  
+    }
+    &-brand{
+        color:$dark-green !important;
+        font-weight: 700;
+    }
+    &-collapse {
+        margin-left: 250px;
+    }
+    .logo-text{
+        color: $my-green;
+        font-weight: 700;
+    }
+    .navbar-nav{
+        .nav-link{
+            color: $my-green !important;
+            font-weight: 600 !important;
+        }
+        .dropdown-toggle::after{
+            content: none;
+        }
+        .dropdown-item:hover:hover{
+            background-color:$light-green;
+        }
+        .dropdown-item.active, .dropdown-item:active{
+            background-color:$light-green;
+        }
+    }
+    
+   
+}
