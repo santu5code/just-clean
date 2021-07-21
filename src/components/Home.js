@@ -3,7 +3,10 @@ import About from './About'
 import Banner from './Banner'
 import Certifications from './Certifications'
 import Contact from './Contact'
+import Footer from './Footer'
 import NavBar from './NavBar'
+import Review from './Review'
+import ScrollButton from './ScrollButton'
 import Workplaces from './Workplaces'
 
 const Home = () => {
@@ -12,9 +15,15 @@ const Home = () => {
         <NavBar />
         <Banner />
         <Workplaces />
+        
+       
         <Certifications />
         <About />
         <Contact />
+        <Review />
+        <ScrollButton />
+        <Footer />
+        
         </>
     )
 }

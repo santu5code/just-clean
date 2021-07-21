@@ -27,4 +27,31 @@
     background-color: $my-green !important;
     color: $my-white !important;
 }
+.scroll-button{
+position: fixed; 
+margin-right: 5px;
+left: 95%;
+bottom: 50px;
 
+font-size: 3rem;
+z-index: 1;
+cursor: pointer;
+color: $my-green;}
+
+@media screen and (max-width:910px){
+    .scroll-button{
+        left: 90%;
+    }
+}
+@media screen and (max-width:500px){
+    .scroll-button{
+        left: 84%;
+    }
+}
+
+// .social-icon{
+//     // color:$my-white
+// }
+.button-scroll{
+    background-color: $dark-green;
+}

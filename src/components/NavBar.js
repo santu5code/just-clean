@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
-import { Link } from "react-router-dom";
+
+import {Link} from 'react-router-dom'
 import {BsFillPersonFill} from 'react-icons/bs'
 const NavBar = () => {
   return (

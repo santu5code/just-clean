@@ -1,0 +1,22 @@
+.footer{
+    background-color: $dark-green;
+    margin: 50px 0px 0px 0px;
+    bottom: 0px;
+    .my-icons a{
+        background-color: white;
+      
+    }
+    .menu {
+        list-style-type: none;
+        
+         .links a{
+            text-decoration: none;
+            color: $my-white;
+            display:flex;
+            flex-direction: column;
+        }
+    }
+    h2{
+        font-weight: 600;
+    }
+}
